@@ -20,7 +20,6 @@ RUN apt-add-repository -y ppa:hentenaar/php && \
 
 COPY apache2.conf /etc/apache2/
 COPY syslog-errors.ini /etc/php5/apache2/conf.d/
-COPY ssmtp.conf /etc/ssmtp/
 
 RUN mkdir /etc/service/apache2
 ADD apache2.sh /etc/service/apache2/run

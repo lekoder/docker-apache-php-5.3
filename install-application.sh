@@ -25,3 +25,10 @@ then
     mkdir -p /etc/php5/apache2/conf.d
     mv php.ini /etc/php5/apache2/conf.d/99-application.ini
 fi
+
+if [ -f ssmtp.conf ]
+then
+    echo "Installing ssmtp.conf"
+    cp ssmtp.conf /etc/ssmtp/
+fi
+
