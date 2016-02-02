@@ -28,9 +28,10 @@ This image installs dependencies automaticly, just place relevant file in root o
 * `package.json` will run `npm install`
 * `composer.json` will install composer and run `composer.phar install`
 
-## custom php.ini
+## Using custom php.ini
 
-If you place `php.ini` file in root of your application, it will be used as `conf.d`
+If you place `php.ini` file in root of your application, it will be used as `conf.d`.
+
 
 ## Email
 
