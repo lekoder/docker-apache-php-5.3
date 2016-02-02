@@ -1,5 +1,7 @@
 # Apache + PHP5.3 for legacy applications
 
+[![Build Status](https://travis-ci.org/lekoder/docker-apache-php-5.3.svg?branch=master)](https://travis-ci.org/lekoder/docker-apache-php-5.3)
+
 PHP 5.4, despite being a minor update, introduced a series breaking changes in PHP language. There are
 many legacy applications in the web that won't work with PHP older than 5.3. This docker image aims
 to fix the problem, providing PHP 5.3 environment for legacy applications.
