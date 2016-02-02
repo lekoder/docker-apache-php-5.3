@@ -1,0 +1,29 @@
+{
+  "name": "docker-php-5.3-legacy",
+  "version": "1.0.0",
+  "description": "Apache + PHP5.3 for legacy applications",
+  "main": "Dockerfile",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lekoder/docker-apache-php-5.3.git"
+  },
+  "keywords": [
+    "docker",
+    "apache",
+    "php",
+    "php",
+    "5.3"
+  ],
+  "author": "Mariusz 'koder' Chwalba <mariusz@chwalba.net>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lekoder/docker-apache-php-5.3/issues"
+  },
+  "homepage": "https://github.com/lekoder/docker-apache-php-5.3#readme"
+}
